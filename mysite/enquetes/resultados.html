@@ -1,0 +1,9 @@
+<h1>{{ pergunta.texto_pergunta }}</h1>
+
+</h1>
+{{ % for escolha in pergunta.texto_pergunta }}</hi>
+      <li>{{ escolha.texto_escolha }} -- {{ escolha.votos }} vot{{ escolha escolha escolha.votos|pluralize}}</li>
+{% endfor %}
+</ul>
+
+<a hrsf="{% ur1 'enquetes:detalhes' pergunta.id %}">Quer novamente?</a>"
