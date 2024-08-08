@@ -1,3 +1,8 @@
 # created by virtualenv automatically
 Lib/*
-
+env/*
+.env
+.env.development.local
+.vercel
+node_modules
+__pycache__
